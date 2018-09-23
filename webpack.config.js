@@ -8,6 +8,7 @@ module.exports = {
         path: __dirname,
         filename: 'bundle.js'
     },
+    externals: ['jquery'],
     resolve: {
         extensions: ['.ts', '.tsx', '.js']
     },
